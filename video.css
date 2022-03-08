@@ -1,0 +1,386 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+.vid_container {
+  background: whitesmoke;
+  width: 100%;
+}
+.main_div {
+  width: 61%;
+}
+.embedded_div {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 800px;
+  height: 450px;
+}
+.likes {
+  width: 100%;
+  display: flex;
+  font-family: "poppins", sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #272532;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+}
+.ico {
+  display: flex;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+.date {
+  font-size: 0.9rem;
+}
+.fa-thumbs-up {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.fa-thumbs-up:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+.fa-thumbs-down {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.fa-thumbs-down:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+.fa-share {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.fa-share:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.fa-scissors {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.fa-scissors:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.fa-download {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.fa-download:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.fa-ellipsis {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.fa-ellipsis:hover {
+  color: black;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.name {
+  font-family: "poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.hashtag {
+  font-family: "poppins", sans-serif;
+  margin-top: 0.5rem;
+  color: blue;
+}
+.about {
+  margin-left: 2rem;
+  border-bottom: 1px solid lightslategray;
+  width: 100%;
+}
+.jack_img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.flex {
+  display: flex;
+  font-family: "poppins", sans-serif;
+  flex: 1;
+}
+.sub {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid lightslategray;
+
+  width: 100%;
+}
+.stats {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: -0.2rem;
+}
+.more {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.show {
+  display: flex;
+  align-items: center;
+}
+.fa-caret-down {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  color: gray;
+}
+.fa-caret-down:hover {
+  color: black;
+  cursor: pointer;
+}
+.p1 {
+  opacity: 0.9;
+}
+.subScribe {
+  font-family: "poppins", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1rem;
+  background: #8b0000;
+  color: white;
+  border: 1px solid #8b0000;
+  border-radius: 0.2rem;
+}
+.subScribe:hover {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+.fa-bell {
+  font-size: 1.8rem;
+}
+.subicon {
+  display: flex;
+  align-items: center;
+  width: 21%;
+  justify-content: space-between;
+}
+.comments {
+  margin-left: 1.5rem;
+  font-family: "poppins", sans-serif;
+  width: 100%;
+  margin-top: 1rem;
+}
+.sort {
+  display: flex;
+  width: 37%;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+.sortby {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-arrow-down-short-wide {
+  font-size: 1.4rem;
+}
+.account_comment {
+  display: flex;
+  margin-top: 1rem;
+}
+.input_comment {
+  width: 90%;
+  height: 1.5rem;
+  outline: none;
+  font-family: "poppins", sans-serif;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  border: 1px solid lightslategray;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 0.5rem;
+  background-color: whitesmoke;
+}
+.comment_btns {
+  width: 98%;
+  display: flex;
+  flex-direction: row-reverse;
+  display: none;
+}
+.comment_btns.side {
+  width: 98%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.btns {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  margin-left: 1rem;
+  background: none;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+}
+.btns:hover {
+  background-color: lightslategray;
+  color: white;
+}
+
+.btns_cancel {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  background: none;
+  border: none;
+}
+.btns_cancel:hover {
+  border: 1px solid lightslategray;
+  border-radius: 0.2rem;
+}
+.accounts_comments {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+}
+.people_reaction {
+  display: flex;
+  align-items: center;
+}
+.time_display {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.people_like {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+.fa-thumbs-up.like {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.fa-thumbs-down.dislike {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.time_commented {
+  font-size: 0.9rem;
+}
+.name_commenter {
+  font-size: 1rem;
+}
+.num {
+  font-size: 0.9rem;
+}
+.rep {
+  font-size: 0.9rem;
+}
+.vid_container {
+  display: flex;
+}
+.side_content {
+  margin-left: 3rem;
+  width: 40%;
+}
+
+.aside_videos {
+  width: 100%;
+}
+.video.side {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+.description-div.side {
+}
+.thumbnail.side {
+  margin-left: -1rem;
+  width: 40%;
+  height: 7rem;
+  margin-right: 0.5rem;
+}
+
+.bar_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-thumbs-up.liked {
+  color: black;
+}
+.fa-thumbs-down.disliked {
+  color: black;
+}
+
+.fa-thumbs-up.like.commenth {
+  color: black;
+}
+.fa-thumbs-down.dislike.comment {
+  color: black;
+}
+@media (max-width: 1000px) {
+  .vid_container {
+    flex-direction: column;
+  }
+  .main_div {
+    width: 100%;
+  }
+  .side_content {
+    width: 100%;
+  }
+  .embedded_div {
+    width: 450px;
+    height: 253.13px;
+  }
+  .ico {
+    flex-direction: column;
+  }
+  .webdev {
+    width: 50%;
+  }
+  .sub {
+    flex-direction: column;
+  }
+  .subScribe {
+    margin-left: 3.5rem;
+    margin-right: 1rem;
+  }
+}
